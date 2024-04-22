@@ -18,7 +18,7 @@ const app = express();
 app.use(morgan("dev"));
 app.use(express.json());
 app.use(cors(
-  origin:["https://expense-manager-ygs4.vercel.app/"],
+  origin:["https://expense-manager-prcp.vercel.app/"],
   methods:["POST", "GET"],
   credentials:true
 ));
